@@ -1,14 +1,10 @@
-
-
-# asdfa
-
-
+# README Generator
 
 ## Description
 
-asdfs
+a simple readme generator that will ask the user for input and then compile the input to a markdown file that is formated correctly
 
-## Table of Contents 
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,22 +15,20 @@ asdfs
 
 ## Installation
 
-wer
+download the files to a folder on your local computer
 
 ## Usage
 
-cv
+run this application as a node.js application from the git bash terminal when in the correct directory
 
 ## Tests
 
-undefined
-
-
+N/A
 
 ## Questions
 
-[GitHub](https://github.com/asdfa)
+[GitHub](https://github.com/Ajurgs)
 
-[Email](asdfa)
+[Email](ajjurgs5954@gmail.com)
 
-  
+[Video](https://drive.google.com/file/d/1eDcqcSmZpntoOt8amn4md3iNNOYdKkTZ/view?usp=sharing)
