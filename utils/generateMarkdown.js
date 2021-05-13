@@ -3,6 +3,8 @@
 function renderLicenseBadge(license) {
   if (license !== "None") {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  } else {
+    return "";
   }
 }
 
@@ -11,6 +13,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "None") {
     return `- [License](#license)`;
+  } else {
+    return "";
   }
 }
 
@@ -19,6 +23,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "None") {
     return `## License`;
+  } else {
+    return "";
   }
 }
 
@@ -38,7 +44,7 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-${renderLicenseLink}
+${renderLicenseLink(data.license)}
 - [Credits](#credits)
 - [Tests](#tests)
 - [Questions](#questions)
