@@ -1,4 +1,4 @@
-# README Generator
+# ReadMe Gen
 
 ## Description
 
@@ -31,4 +31,4 @@ N/A
 
 [Email](ajjurgs5954@gmail.com)
 
-[Video](https://drive.google.com/file/d/1eDcqcSmZpntoOt8amn4md3iNNOYdKkTZ/view?usp=sharing)
+[Video](https://drive.google.com/file/d/1Ey69283l4wyjcRmseq1ggYCI4NSfoWRH/view?usp=sharing)
