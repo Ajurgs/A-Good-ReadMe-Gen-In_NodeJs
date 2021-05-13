@@ -26,6 +26,16 @@ const questions = [
   },
   {
     type: "input",
+    message: "Enter installation guide for the project: ",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "Enter the usage for this project: ",
+    name: "usage",
+  },
+  {
+    type: "input",
     message: "Enter contribution guidelines:",
     name: "contribution",
   },
@@ -34,6 +44,7 @@ const questions = [
     type: "list",
     message: "choose a license to add to the project: ",
     name: "license",
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
   },
 ];
 

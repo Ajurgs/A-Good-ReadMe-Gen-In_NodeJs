@@ -1,51 +1,67 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license !== "None") {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license !== "None") {
+    return `- [License](#license)`;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return `## License`;
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   let temp = `
-  # ${data.title}
-  
-  ## Description
 
-  ${data.description}
+# ${data.title}
 
-  ## Table of Contents 
+${renderLicenseBadge(data.license)}
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Questions](#questions)
+## Description
 
-  ## Installation
+${data.description}
 
-  ## Usage
+## Table of Contents 
 
-  ${data.usage}
+- [Installation](#installation)
+- [Usage](#usage)
+${renderLicenseLink}
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Credits
+## Installation
 
+${data.installation}
 
+## Usage
 
-  ## License
+${data.usage}
 
+## Tests
 
+${data.credit}
 
-  ## Questions
+${renderLicenseSection(data.license)}
 
-  [GitHub](https://github.com/${data.userName})
+## Questions
 
-  [Email](${data.email})
+[GitHub](https://github.com/${data.userName})
+
+[Email](${data.email})
 
   `;
 
