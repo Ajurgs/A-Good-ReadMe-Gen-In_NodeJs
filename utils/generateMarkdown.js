@@ -59,7 +59,7 @@ ${data.usage}
 
 ## Tests
 
-${data.credit}
+${data.test}
 
 ${renderLicenseSection(data.license)}
 
